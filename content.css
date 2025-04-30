@@ -1,3 +1,19 @@
 .ProblemRating {
   display: none !important;
 }
+
+/* .left {
+  display: none !important;
+}
+
+.right {
+  display: none !important;
+} */
+
+a[title="Participants solved the problem"] {
+  display: none !important;
+}
+
+.left {
+  font-size: 0 !important;
+}
