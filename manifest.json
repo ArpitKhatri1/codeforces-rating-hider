@@ -9,7 +9,8 @@
   "content_scripts": [
     {
       "matches": ["https://codeforces.com/*"],
-      "js": ["content.js"]
+      "js": ["content.js"],
+      "css": ["content.css"]
     }
   ]
 }
