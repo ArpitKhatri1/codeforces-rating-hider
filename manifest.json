@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "codeforces-rating-hider",
+  "version": "1.0",
+  "description": "Hide problems rating while practising",
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://codeforces.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
